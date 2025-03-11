@@ -1,0 +1,48 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffebf0; /* Soft pink background */
+}
+
+/* Image Styling */
+img {
+    margin-top: 50px;
+    width: 150px;
+    height: auto;
+}
+
+/* Question Text */
+.question {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin: 20px 0;
+}
+
+/* Buttons Container */
+.buttons {
+    margin-top: 10px;
+}
+
+/* Buttons Styling */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #ff7a7a; /* Pinkish red */
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #e56464; /* Slightly darker shade */
+    transform: scale(1.05);
+}
